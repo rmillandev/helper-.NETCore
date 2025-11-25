@@ -7,7 +7,7 @@ Proporciona el método `UseExceptionHandling()`, que permite agregar el middlewa
 Este enfoque mejora la legibilidad del código y sigue la convención estándar de ASP.NET Core para registrar middlewares mediante métodos de extensión.
 
 
-```
+``` C#
   public static class MiddlewareExtensions
   {
       public static IApplicationBuilder UseExceptionHandling(this IApplicationBuilder builder)

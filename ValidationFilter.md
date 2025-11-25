@@ -20,7 +20,7 @@ Si no hay errores, el filtro permite que la acción continúe normalmente.
 Este enfoque centraliza la validación, reduce código repetido en los controladores y garantiza respuestas coherentes para el cliente.
 
 
-```
+``` C#
 public class ValidationFilter : IAsyncActionFilter
 {
     public async Task OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)

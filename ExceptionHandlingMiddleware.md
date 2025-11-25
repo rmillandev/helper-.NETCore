@@ -14,7 +14,7 @@ Este middleware:
 De esta forma, la aplicación logra un manejo de errores consistente, evita fugas de excepciones sin procesar y mejora la experiencia del cliente y la mantenibilidad del código.
 
 
-```
+``` C#
 public class ExceptionHandlingMiddleware
 {
     private readonly RequestDelegate _next;
